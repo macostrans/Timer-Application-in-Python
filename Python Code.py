@@ -1,5 +1,7 @@
 import time
 import sys
+import os
+import pygame
 try:
     timer_minutes = int(input("No of Minutes You want to set the Timer For: "))
     timer_seconds = int(input("No of seconds you want to set the Timer For: "))
@@ -25,6 +27,10 @@ try:
                 seconds = 0
         except KeyboardInterrupt:
             break
-    print("\nTime up")
+    pygame.mixer.init()
+    pygame.mixer.music.load("alarm.mp3")
+    pygame.mixer.music.play()
+    time.sleep(5)
+    # print("Time Up")
 except:
     print("Oops Something went Wrong")
