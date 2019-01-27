@@ -1,4 +1,3 @@
-# Timer Application in Python
+# Timer Application in Python. No Python Needed to excute the code
 # You can set a Timer in Minutes and Seconds. 
-	Can be executed through the command Line
-	Can be Easily Set as a bash executed command
+	The Zip Folder can be executed on a standalone basis. No Python Application needed to excute the code
